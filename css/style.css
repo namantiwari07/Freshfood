@@ -1,0 +1,169 @@
+/*Color Scheme
+#2F1000
+#543B2E
+*/
+
+/*Global Style*/
+
+body {
+/*    background-color: rgb(205,133,63);    */
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(139,69,19,0.5);
+}
+
+.title {
+    font-family: 'Patrick Hand', cursive;
+    color: floralwhite;
+}
+
+.h1 {
+    padding: 30px 10px 0 0;
+	font-family: 'Courgette', cursive;
+	text-align: left;
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.menuicon {
+	padding-bottom: 10px;
+}
+
+
+/* Home */
+
+.textover {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 95%;
+    padding-top: 20px;
+    position : absolute;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item {
+    margin-top: 2px;
+}
+
+
+/* Navigation */
+
+.nav .navbar-brand {
+    width: 100%;
+    padding: 0 15px 0 15px ;
+    font-weight: 700;
+}
+.navbar {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.icon {
+    width: 30%;
+    height: 30%;
+    margin: 30px 0 30px 0;
+}
+
+/* Our Menu */
+
+.menu {
+    padding-top: 20px;
+    background-color: azure;
+}
+
+.lead {
+  font-weight: bold; 
+}
+
+/* Book Your Table Section */
+
+.list-group-item {
+   	border-top: 0;
+    border-bottom: 2px solid;
+    border-right: 0;
+    border-left: 0;
+/*    padding-left: 0;*/
+}
+
+.panel-title {
+    font-family: 'Righteous',cursive;
+	font-style: italic;
+	padding: 30px 0 5px 0;
+	border-bottom: 2px solid;
+	border-bottom-style: dotted;
+	color: darkred;
+}
+
+.form {
+    padding: 15px;
+}
+
+
+/*Our Chefs Section*/
+
+.chef-img {
+    height: 450px;
+    width: 425px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.thumbnail {
+	padding: 2px;
+	margin: 2px;
+	text-align: justify;
+}
+
+.container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.jumbotron {
+	padding: 10px 10px 10px 10px;
+	width: 80%;
+}
+
+.display_2 {
+	border-bottom: 2px solid;
+	margin: 2px 0 2px 0;
+}
+
+/* Location */
+
+.location {
+    padding: 20px;
+    font-family:sans-serif;
+	text-align: center;
+	height: 300px;
+	
+}
+
+.locationImage {
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,
+		url('../images/locationimage.jpeg');
+	background-position: 80% 32%;
+	background-size: cover;
+	
+}
+
+.address {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: lavenderblush;
+}
+
+
+/* footer */
+
+.footer {
+	font-size: 20px;
+	font-weight: 700;
+	color: maroon;
+	text-align: center;
+	height: 80px;
+	background-color: gray;
+	padding: 30px 0 30px 0;
+}
