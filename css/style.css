@@ -105,10 +105,10 @@ body {
 
 .chef-img {
     height: 450px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 0px;
     margin-top: 20px;
-    padding: 0 10% 0 10%;
+    padding: 0 8.5px 0 8.5px;
 }
 
 .thumbnail {
@@ -124,8 +124,7 @@ body {
 
 .jumbotron {
 	padding: 10px 10px 10px 10px;
-	width: 80%;
-	padding: 0 10% 0 10%;
+	width: 100%;
 }
 
 .display_2 {
