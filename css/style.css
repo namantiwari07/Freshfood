@@ -31,12 +31,13 @@ body {
 
 /* Home */
 
-.textover {
+.carousel-caption {
     background-color: rgba(0, 0, 0, 0.8);
     height: 95%;
     padding-top: 20px;
     position : absolute;
 }
+
 
 .carousel-img {
     width: 100%;
@@ -108,7 +109,10 @@ body {
     width: 100%;
     margin-bottom: 0px;
     margin-top: 20px;
-	padding: 0;
+}
+
+.col-lg-6{
+	padding: 0 8% 0 8%;
 }
 
 .thumbnail {
@@ -131,6 +135,7 @@ body {
 	border-bottom: 2px solid;
 	margin: 2px 0 2px 0;
 }
+
 
 /* Location */
 
