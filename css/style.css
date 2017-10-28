@@ -35,7 +35,7 @@ body {
 
 .logoname {
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 50px;
+	font-size: 70px;
 	font-stretch: ultra-condensed;
 }
 
@@ -70,8 +70,8 @@ body {
 }
 
 .icon {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
     margin: 30px 0 15px 0;
 }
 
