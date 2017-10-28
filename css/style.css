@@ -22,6 +22,8 @@ body {
 	text-align: left;
 	font-weight: 900;
 	font-size: 60px;
+	color: white;
+	margin-bottom: 0;
 }
 
 .menuicon {
@@ -31,6 +33,12 @@ body {
 
 /* Home */
 
+.logoname {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 50px;
+	font-stretch: ultra-condensed;
+}
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.8);
     height: 95%;
@@ -38,10 +46,10 @@ body {
     position : absolute;
 }
 
-
 .carousel-img {
     width: 100%;
     height: 600px;
+	background-size: cover;
 }
 
 .carousel-item {
@@ -64,7 +72,7 @@ body {
 .icon {
     width: 30%;
     height: 30%;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 15px 0;
 }
 
 /* Our Menu */
@@ -77,6 +85,14 @@ body {
 .lead {
   font-weight: bold; 
 }
+
+.menubackground {
+ 	background-image: url('../images/menubackground.jpg');
+	background-blend-mode: color-dodge;
+	padding: none;
+	background-size: contain; 
+}
+
 
 /* Book Your Table Section */
 
@@ -94,11 +110,21 @@ body {
 	padding: 30px 0 5px 0;
 	border-bottom: 2px solid;
 	border-bottom-style: dotted;
-	color: darkred;
+	color: lightcyan;
+	font-size: 50px;
 }
 
 .form {
     padding: 15px;
+	color: lightcyan;
+	font-weight: 600;
+}
+
+.bookingbackground {
+ 	background-image: url('../images/backgroundloaction.jpeg');
+	background-blend-mode: color-dodge;
+	padding: none;
+	background-size: cover; 
 }
 
 
@@ -109,6 +135,12 @@ body {
     width: 100%;
     margin-bottom: 0px;
     margin-top: 20px;
+}
+
+.chefbackground {
+ background-image: url('../images/photo-collage.png');
+	background-blend-mode: color-dodge;
+	padding: none;
 }
 
 .col-lg-6{
@@ -167,8 +199,8 @@ body {
 .footer {
 	font-size: 20px;
 	font-weight: 700;
-	color: maroon;
+	color: saddlebrown;
 	text-align: center;
-	background-color: gray;
-	padding: 30px 0 30px 0;
+	background-color: lavender;
+	padding: 20px 0 20px 0;
 }
