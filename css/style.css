@@ -62,8 +62,11 @@ body {
 	background-color: darkgray;
 }
 
-.lead {
+.align-text {
 	text-align: center;
+}
+
+.lead {
 	border-bottom: 10px;
 	font-weight: normal;
 }
